@@ -6,6 +6,9 @@ This file includes only changes we consider noteworthy for users, admins and plu
 
 - Preserve the original message date on import of EML messages (#5559, #10251)
 - OAuth: Validate JWT token signature (#10210)
+
+## Release 1.7.4
+
 - Use `X-Content-Type-Options:nosniff` for attachment previews and downloads (#10308)
 - zipdownload: Fix attachment filename sanitisation of backslash and control characters (#10325)
 - Security: Fix CSS declaration smuggling via un-encoded ampersand emission
